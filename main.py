@@ -1,4 +1,5 @@
 from dotenv import load_env
+load_env()
 
 async def main():
     print("Hello from langchain-mcp-adapter!")
@@ -6,3 +7,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+ # 
