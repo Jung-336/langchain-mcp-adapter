@@ -6,7 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "isort>=6.0.1",
-    "langchain-mcp-adapters>=0.1.4",
+    "langchain-anthropic>=0.3.15",
+    "langchain-google-genai>=2.1.5",
+    "langchain-groq>=0.3.2",
+    "langchain-xai>=0.2.4",
     "langchain[openai]>=0.3.25",
     "langgraph>=0.4.8",
     "pip>=25.1.1",
